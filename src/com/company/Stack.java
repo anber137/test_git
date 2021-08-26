@@ -10,14 +10,14 @@ public class Stack {
 
     void push(int item) {
         if (tos == 9) {
-            System.out.println("Stack is out");
+            //System.out.println("Stack is out");
         } else
             stck[++tos] = item;
     }
 
     int pop() {
         if(tos < 0) {
-            System.out.println("Stack is loaded");
+            //System.out.println("Stack is loaded");
             return 0;
         }
         else
