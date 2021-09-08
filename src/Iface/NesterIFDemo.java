@@ -8,5 +8,6 @@ public class NesterIFDemo {
             System.out.println("Число 10 > 0");
         if(nif.isNotNegative(-12))
             System.out.println("Число не будет выведено");
+        NowNumberPage.print();
     }
 }
