@@ -7,4 +7,8 @@ public interface MyIf {
         return "Object is a type String default";
     }
 
+    static int getDefauotNumber(){
+        return 0;
+    }
+
 }
